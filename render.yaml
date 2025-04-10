@@ -1,7 +1,6 @@
-
 services:
   - type: web
-    name: immich-nart-backend
+    name: madar3
     env: python
     buildCommand: ""
     startCommand: "uvicorn main:app --host 0.0.0.0 --port 10000"
